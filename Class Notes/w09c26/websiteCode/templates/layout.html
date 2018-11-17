@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MIS407 Website</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}"
+</head>
+<body>
+   <div class="header">
+      <img src="{{url_for('static', filename='images/iowastate_MIS407.png')}}" class="wrap align-left">
+      <h1 class="logo">MIS407 Web App</h1>
+      <strong><nav>
+         <ul class="menu">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            <li><a href="{{ url_for('weather') }}">Weather</a></li>
+            <li><a href="{{ url_for('markdown') }}">Markdown</a></li>
+          </ul>
+      </nav></strong>
+   </div>
+   <div class="container">
+     {%block content%}
+     {%endblock%}
+   </div>
+   <div class="footer">
+      footer
+   </div>
+</body>

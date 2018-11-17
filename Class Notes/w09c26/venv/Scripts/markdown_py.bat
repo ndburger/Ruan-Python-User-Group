@@ -1,0 +1,1 @@
+@"c:\users\timsmith\dropbox\___iastate\mis407\_f16_mis407_repos\class-notes-and-admin\classes\w09c26\venv\scripts\python.exe" "c:\users\timsmith\dropbox\___iastate\mis407\_f16_mis407_repos\class-notes-and-admin\classes\w09c26\venv\Scripts\markdown_py" %*
